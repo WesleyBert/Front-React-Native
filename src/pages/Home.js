@@ -3,53 +3,53 @@ import { StyleSheet, Text, TouchableOpacity, View, Image, ScrollView } from 'rea
 
 export default function Home() {
     return (
-            <ScrollView contentContainerStyle={style.container}>
-                    <TouchableOpacity style={style.cardContainer}>
-                        <Image
-                            source={require('../../assets/viagem-2.jpg')}
-                            style={style.shoesImg}
-                        />
-                        <Text style={style.shoesText}>
-                            Viagens para espanha
-                        </Text>
-                        <Text style={style.shoesText}>
-                           á partir de R$1500
-                        </Text>
-                        <View opacity={0.4}>
-                            <Text style={style.button}>Confira agora</Text>
-                        </View>
-                    </TouchableOpacity>
-                    <TouchableOpacity style={style.cardContainer}>
-                        <Image
-                            source={require('../../assets/viagem-2.jpg')}
-                            style={style.shoesImg}
-                        />
-                           <Text style={style.shoesText}>
-                            Viagens para espanha
-                        </Text>
-                        <Text style={style.shoesText}>
-                           á partir de R$1500
-                        </Text>
-                        <View opacity={0.4}>
-                            <Text style={style.button}>Confira agora</Text>
-                        </View>
-                    </TouchableOpacity>
-                    <TouchableOpacity style={style.cardContainer}>
-                        <Image
-                            source={require('../../assets/viagem-2.jpg')}
-                            style={style.shoesImg}
-                        />
-                             <Text style={style.shoesText}>
-                            Viagens para espanha
-                        </Text>
-                        <Text style={style.shoesText}>
-                           á partir de R$1500
-                        </Text>
-                        <View opacity={0.4}>
-                            <Text style={style.button}>Confira agora</Text>
-                        </View>
-                    </TouchableOpacity >
-            </ScrollView >
+        <ScrollView contentContainerStyle={style.container}>
+            <TouchableOpacity style={style.cardContainer}>
+                <Image
+                    source={require('../../assets/rio.png')}
+                    style={style.shoesImg}
+                />
+                <Text style={style.shoesText}>
+                    Viagens para o rio de janeiro
+                </Text>
+                <Text style={style.shoesText}>
+                    á partir de R$1500
+                </Text>
+                <View opacity={0.4}>
+                    <Text style={style.button}>Confira agora</Text>
+                </View>
+            </TouchableOpacity>
+            <TouchableOpacity style={style.cardContainer}>
+                <Image
+                    source={require('../../assets/argentina.png')}
+                    style={style.shoesImg}
+                />
+                <Text style={style.shoesText}>
+                    Viagens para argentina
+                </Text>
+                <Text style={style.shoesText}>
+                    á partir de R$1500
+                </Text>
+                <View opacity={0.4}>
+                    <Text style={style.button}>Confira agora</Text>
+                </View>
+            </TouchableOpacity>
+            <TouchableOpacity style={style.cardContainer}>
+                <Image
+                    source={require('../../assets/orlando.png')}
+                    style={style.shoesImg}
+                />
+                <Text style={style.shoesText}>
+                    Viagens para orlando
+                </Text>
+                <Text style={style.shoesText}>
+                    á partir de R$1500
+                </Text>
+                <View opacity={0.4}>
+                    <Text style={style.button}>Confira agora</Text>
+                </View>
+            </TouchableOpacity >
+        </ScrollView >
     );
 }
 
@@ -89,8 +89,8 @@ const style = StyleSheet.create({
         textAlign: 'center'
     },
     shoesImg: {
-      width: 300,
-      height: 300,
+        width: 300,
+        height: 300,
     },
     textContainer: {
         flexDirection: 'row',
